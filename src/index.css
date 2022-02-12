@@ -1,12 +1,65 @@
-body {
+
+.titletext {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+.Header {
+  background-color: #F55A5A;
+  color: white;
   font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+  /* position: absolute; */
+}
+
+.globe{
+  font-size: 60px;
+}
+
+.App{
+  margin: 0;
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.Main{
+  
+}
+
+body{
+  justify-content: center;
+  align-self: center;
+  padding: 20px;
+}
+
+/* MATERIAL UI ICON CSS */
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px; 
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }

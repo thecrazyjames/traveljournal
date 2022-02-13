@@ -28,8 +28,27 @@
 }
 
 .Main{
-  
+  padding: 30px;
 }
+
+.text{
+  width: 80%;
+}
+
+.Card {
+  border-bottom: 1px solid #F5F5F5;
+  margin-top:20px;
+  display: flex;
+}
+
+.PhotoArea {
+  border: solid;
+  width: 25%;
+}
+
+img {
+  width: 100%;
+} 
 
 body{
   justify-content: center;
